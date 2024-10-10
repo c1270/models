@@ -43,7 +43,7 @@ class _SSDResnetPpnFeatureExtractor(ssd_meta_arch.SSDFeatureExtractor):
                num_layers=6,
                override_base_feature_extractor_hyperparams=False,
                use_bounded_activations=False):
-    """Resnet based PPN Feature Extractor for SSD Models.
+    """Resnet based PPN Feature Extractor for SSD pre-trained_Models.
 
     See go/pooling-pyramid for more details about PPN.
 
@@ -176,7 +176,7 @@ class SSDResnet50V1PpnFeatureExtractor(_SSDResnetPpnFeatureExtractor):
                use_explicit_padding=False,
                use_depthwise=False,
                override_base_feature_extractor_hyperparams=False):
-    """Resnet50 v1 Feature Extractor for SSD Models.
+    """Resnet50 v1 Feature Extractor for SSD pre-trained_Models.
 
     Args:
       is_training: whether the network is in training mode.
@@ -216,7 +216,7 @@ class SSDResnet101V1PpnFeatureExtractor(_SSDResnetPpnFeatureExtractor):
                use_explicit_padding=False,
                use_depthwise=False,
                override_base_feature_extractor_hyperparams=False):
-    """Resnet101 v1 Feature Extractor for SSD Models.
+    """Resnet101 v1 Feature Extractor for SSD pre-trained_Models.
 
     Args:
       is_training: whether the network is in training mode.
@@ -256,7 +256,7 @@ class SSDResnet152V1PpnFeatureExtractor(_SSDResnetPpnFeatureExtractor):
                use_explicit_padding=False,
                use_depthwise=False,
                override_base_feature_extractor_hyperparams=False):
-    """Resnet152 v1 Feature Extractor for SSD Models.
+    """Resnet152 v1 Feature Extractor for SSD pre-trained_Models.
 
     Args:
       is_training: whether the network is in training mode.

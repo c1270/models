@@ -11,7 +11,7 @@ to us: `hiertext@google.com`.
 
 ## Installation
 
-### Set up TensorFlow Models
+### Set up TensorFlow pre-trained_Models
 
 ```bash
 # (Optional) Create and enter a virtual environment
@@ -19,10 +19,10 @@ pip3 install --user virtualenv
 virtualenv -p python3 unified_detector
 source ./unified_detector/bin/activate
 
-# First clone the TensorFlow Models project:
+# First clone the TensorFlow pre-trained_Models project:
 git clone https://github.com/tensorflow/models.git
 
-# Install the requirements of TensorFlow Models and this repo:
+# Install the requirements of TensorFlow pre-trained_Models and this repo:
 cd models
 pip3 install -r official/requirements.txt
 pip3 install -r official/projects/unified_detector/requirements.txt

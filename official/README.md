@@ -2,7 +2,7 @@
   <img src="https://storage.googleapis.com/tf_model_garden/tf_model_garden_logo.png">
 </div>
 
-# TensorFlow Official Models
+# TensorFlow Official pre-trained_Models
 
 The TensorFlow official models are a collection of models
 that use TensorFlow’s high-level APIs.
@@ -29,7 +29,7 @@ In the near future, we will add:
 
 ## Table of Contents
 
-- [Models and Implementations](#models-and-implementations)
+- [pre-trained_Models and Implementations](#models-and-implementations)
   * [Computer Vision](#computer-vision)
     + [Image Classification](#image-classification)
     + [Object Detection and Segmentation](#object-detection-and-segmentation)
@@ -39,7 +39,7 @@ In the near future, we will add:
 - [How to get started with the official models](#how-to-get-started-with-the-official-models)
 - [Contributions](#contributions)
 
-## Models and Implementations
+## pre-trained_Models and Implementations
 
 ### [Computer Vision](vision/README.md)
 

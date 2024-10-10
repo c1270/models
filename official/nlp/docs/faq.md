@@ -3,12 +3,12 @@
 
 <!-- ## Scope of the document
 
-Scope of this document is to cover FAQs related to TensorFlow-Models-NLP. -->
+Scope of this document is to cover FAQs related to TensorFlow-pre-trained_Models-NLP. -->
 
 ## Introduction
 
 Goal of this document is to capture Frequently Asked Questions (FAQs) related to
-TensorFlow-Models-NLP (TF-NLP). The source of these questions is limited to
+TensorFlow-pre-trained_Models-NLP (TF-NLP). The source of these questions is limited to
 external resources (GitHub, StackOverflow,Google groups etc).
 
 ## FAQs of TF-NLP
@@ -24,7 +24,7 @@ this repository in your publication. The citation is at the following
 
 --------------------------------------------------------------------------------
 
-**Q2: How to Load NLP Pretrained Models ?**
+**Q2: How to Load NLP Pretrained pre-trained_Models ?**
 
 *   [**How to Initialize from Checkpoint:**](https://github.com/tensorflow/models/blob/master/official/nlp/docs/pretrained_models.md#how-to-load-pretrained-models)
     If you use the TF-NLP training library, you can specify the checkpoint path
@@ -252,7 +252,7 @@ network for some more sparsemixture references.
 
 Conditional computation
 is an AI model architecture where specific sections of the computational graph
-are activated based on input conditions. Models following this paradigm
+are activated based on input conditions. pre-trained_Models following this paradigm
 demonstrate efficiency, especially with increased model capacity or reduced
 inference latency.
 
@@ -355,6 +355,6 @@ currently not available.
 
 Acronym | Meaning
 ------- | --------------------------
-TFM     | Tensorflow Models
+TFM     | Tensorflow pre-trained_Models
 FAQs    | Frequently Asked Questions
 TF      | TensorFlow

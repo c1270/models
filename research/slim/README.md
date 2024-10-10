@@ -216,7 +216,7 @@ and `validation-?????-of-00128`, respectively.
 [Congratulations!](https://www.youtube.com/watch?v=9bZkp7q19f0) You are now
 ready to train or evaluate with the ImageNet data set.
 
-# Pre-trained Models
+# Pre-trained pre-trained_Models
 <a id='Pretrained'></a>
 
 Neural nets work best when they have many parameters, making them powerful
@@ -490,7 +490,7 @@ See
 See
 [Model Resulting in NaNs](https://github.com/tensorflow/models/tree/master/research/inception#the-model-training-results-in-nans).
 
-#### The ResNet and VGG Models have 1000 classes but the ImageNet dataset has 1001
+#### The ResNet and VGG pre-trained_Models have 1000 classes but the ImageNet dataset has 1001
 
 The ImageNet dataset provided has an empty background class which can be used
 to fine-tune the model to other tasks. If you try training or fine-tuning the

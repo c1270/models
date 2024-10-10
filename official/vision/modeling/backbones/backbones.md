@@ -1,4 +1,4 @@
-# Vision Backbone Models
+# Vision Backbone pre-trained_Models
 
 > This user guide presents the basic description of backbone models for computer
 > vision tasks. The backbone models refer to the core component of a deep
@@ -216,7 +216,7 @@ different set of block specifications defining the architecture.
 
 **Advantages of EfficientNet:**
 
-*   **Faster Training:** Models with fewer parameters train quicker, saving time
+*   **Faster Training:** pre-trained_Models with fewer parameters train quicker, saving time
     and computational resources.
 *   **Small Memory Footprint:** Lower parameter count means the model takes up
     less space in memory, making it suitable for deployment on devices with
@@ -345,7 +345,7 @@ Model garden offers different variants of mobilenet with different
 configurations. **MobileNetV3** has **MNV3Large**, **MNV3Small** and
 **MNV3EdgeTPU** variants specifically designed for Edge devices and
 **MobileNetV4** variants **MobileNetV4ConvSmall**, **MobileNetV4ConvMedium**,
-**MobileNetV4ConvLarge**, **MobileNetV4HybridMedium** are the Universal Models
+**MobileNetV4ConvLarge**, **MobileNetV4HybridMedium** are the Universal pre-trained_Models
 for the Mobile Ecosystem. It provides multi - hardware mobile model support
 through **MobileNetMultiMAX**, **MobileNetMultiAVG**, **MobileNetMultiAVGSeg**,
 **MobileNetMultiMAXSeg**.

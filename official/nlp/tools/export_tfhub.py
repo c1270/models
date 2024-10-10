@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-r"""Exports a BERT-like encoder and its preprocessing as SavedModels for TF Hub.
+r"""Exports a BERT-like encoder and its preprocessing as Savedpre-trained_Models for TF Hub.
 
-This tool creates preprocessor and encoder SavedModels suitable for uploading
+This tool creates preprocessor and encoder Savedpre-trained_Models suitable for uploading
 to https://tfhub.dev that implement the preprocessor and encoder APIs defined
 at https://www.tensorflow.org/hub/common_saved_model_apis/text.
 
@@ -159,7 +159,7 @@ flags.DEFINE_bool(  # TODO(b/175369555): Remove this flag and its use.
     "Export a preprocessing model without tf.Assert ops. "
     "Usually, that would be a bad idea, except TF2.4 has an issue with "
     "Assert ops in tf.functions used in Dataset.map() on a TPU worker, "
-    "and omitting the Assert ops lets SavedModels avoid the issue.")
+    "and omitting the Assert ops lets Savedpre-trained_Models avoid the issue.")
 
 
 def main(argv):

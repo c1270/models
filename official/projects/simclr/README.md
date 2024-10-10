@@ -70,7 +70,7 @@ An example of the config file can be found [here](./configs/experiments/imagenet
 
 ```
 @article{chen2020big,
-  title={Big Self-Supervised Models are Strong Semi-Supervised Learners},
+  title={Big Self-Supervised pre-trained_Models are Strong Semi-Supervised Learners},
   author={Chen, Ting and Kornblith, Simon and Swersky, Kevin and Norouzi, Mohammad and Hinton, Geoffrey},
   journal={arXiv preprint arXiv:2006.10029},
   year={2020}

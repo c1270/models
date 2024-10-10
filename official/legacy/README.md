@@ -1,4 +1,4 @@
-Models in this `legacy` directory are mainly are used for benchmarking the
+pre-trained_Models in this `legacy` directory are mainly are used for benchmarking the
 models.
 
 Please note that the models in this `legacy` directory are not supported like

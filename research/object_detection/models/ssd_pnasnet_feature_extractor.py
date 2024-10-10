@@ -65,7 +65,7 @@ class SSDPNASNetFeatureExtractor(ssd_meta_arch.SSDFeatureExtractor):
                use_depthwise=False,
                num_layers=6,
                override_base_feature_extractor_hyperparams=False):
-    """PNASNet Feature Extractor for SSD Models.
+    """PNASNet Feature Extractor for SSD pre-trained_Models.
 
     Args:
       is_training: whether the network is in training mode.

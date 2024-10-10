@@ -371,7 +371,7 @@ class SSDMobileDetFeatureExtractorBase(ssd_meta_arch.SSDFeatureExtractor):
                use_depthwise=False,
                override_base_feature_extractor_hyperparams=False,
                scope_name='MobileDet'):
-    """MobileDet Feature Extractor for SSD Models.
+    """MobileDet Feature Extractor for SSD pre-trained_Models.
 
     Reference:
       https://arxiv.org/abs/2004.14525

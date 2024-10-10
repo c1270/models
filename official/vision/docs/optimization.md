@@ -4,7 +4,7 @@
 
 This page describes the
 [optimization package](https://github.com/tensorflow/models/tree/master/official/modeling/optimization/)
-for Tensorflow Official Models (TFM) which includes optimizers, and learning
+for Tensorflow Official pre-trained_Models (TFM) which includes optimizers, and learning
 rate schedulers.
 
 ## Building Optimizer and LR Scheduler

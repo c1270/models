@@ -56,7 +56,7 @@ class TransformerXLBlock(tf_keras.layers.Layer):
   """Transformer XL block.
 
   This implements a Transformer XL block from "Transformer-XL: Attentive
-  Language Models Beyond a Fixed-Length Context"
+  Language pre-trained_Models Beyond a Fixed-Length Context"
   (https://arxiv.org/abs/1901.02860).
 
   This block is further extended to allow for the Transformer-XL
@@ -323,7 +323,7 @@ class TransformerXL(tf_keras.layers.Layer):
   """Transformer XL.
 
   This layer combines multiple Transformer XL blocks from "Transformer-XL:
-  Attentive Language Models Beyond a Fixed-Length Context"
+  Attentive Language pre-trained_Models Beyond a Fixed-Length Context"
   (https://arxiv.org/abs/1901.02860).
 
   This layer handles the attention biases as well as memory caching and reuse

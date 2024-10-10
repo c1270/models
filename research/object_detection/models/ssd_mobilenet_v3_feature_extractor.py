@@ -42,7 +42,7 @@ class SSDMobileNetV3FeatureExtractorBase(ssd_meta_arch.SSDFeatureExtractor):
                use_depthwise=False,
                override_base_feature_extractor_hyperparams=False,
                scope_name='MobilenetV3'):
-    """MobileNetV3 Feature Extractor for SSD Models.
+    """MobileNetV3 Feature Extractor for SSD pre-trained_Models.
 
     MobileNet v3. Details found in:
     https://arxiv.org/abs/1905.02244

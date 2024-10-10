@@ -15,7 +15,7 @@
 
 r"""Training executable for detection models.
 
-This executable is used to train DetectionModels. There are two ways of
+This executable is used to train Detectionpre-trained_Models. There are two ways of
 configuring the training job:
 
 1) A single pipeline_pb2.TrainEvalPipelineConfig configuration file

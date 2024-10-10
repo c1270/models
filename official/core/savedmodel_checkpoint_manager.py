@@ -125,7 +125,7 @@ class SavedModelCheckpointManager(tf.train.CheckpointManager):
     """The path of the most recent SavedModel in `directory`.
 
     Returns:
-      The latest SavedModel path. If there are no SavedModels, returns `None`.
+      The latest SavedModel path. If there are no Savedpre-trained_Models, returns `None`.
     """
     if self._savedmodels:
       return self._savedmodels[-1]
@@ -133,7 +133,7 @@ class SavedModelCheckpointManager(tf.train.CheckpointManager):
 
   @property
   def savedmodels(self) -> List[str]:
-    """A list of managed SavedModels.
+    """A list of managed Savedpre-trained_Models.
 
     Returns:
       A list of SavedModel paths, sorted from oldest to newest.

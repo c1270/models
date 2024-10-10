@@ -69,7 +69,7 @@ https://arxiv.org/abs/2103.14259)) which gives more gains on mAP.
 ## Table of Contents
 
 * [Our Goal](#our-goal)
-* [Models in the library](#models-in-the-library)
+* [pre-trained_Models in the library](#models-in-the-library)
 * [References](#references)
 
 
@@ -79,7 +79,7 @@ Our goal with this model conversion is to provide implementation of the Backbone
 and YOLO Head. We have built the model in such a way that the YOLO head could be
 connected to a new, more powerful backbone if a person chose to.
 
-## Models in the library
+## pre-trained_Models in the library
 
 | Object Detectors | Classifiers      |
 | :--------------: | :--------------: |

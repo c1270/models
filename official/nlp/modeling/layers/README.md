@@ -101,7 +101,7 @@ assemble new `tf.keras` layers or models.
 
 *   [MultiHeadRelativeAttention](relative_attention.py) implements a variant
     of multi-head attention with support for relative position encodings as
-    described in ["Transformer-XL: Attentive Language Models Beyond a
+    described in ["Transformer-XL: Attentive Language pre-trained_Models Beyond a
     Fixed-Length Context"](https://arxiv.org/abs/1901.02860). This also has
     extended support for segment-based attention, a re-parameterization
     introduced in ["XLNet: Generalized Autoregressive Pretraining for Language
@@ -114,7 +114,7 @@ assemble new `tf.keras` layers or models.
     stream and applies self attention.
 
 *   [TransformerXL](transformer_xl.py) implements Transformer XL introduced in
-    ["Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"]
+    ["Transformer-XL: Attentive Language pre-trained_Models Beyond a Fixed-Length Context"]
     (https://arxiv.org/abs/1901.02860). This contains `TransformerXLBlock`, a
     block containing either one or two stream relative self-attention as well as
     subsequent feedforward networks. It also contains `TransformerXL`, which

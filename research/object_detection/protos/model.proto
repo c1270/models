@@ -6,7 +6,7 @@ import "object_detection/protos/center_net.proto";
 import "object_detection/protos/faster_rcnn.proto";
 import "object_detection/protos/ssd.proto";
 
-// Top level configuration for DetectionModels.
+// Top level configuration for Detectionpre-trained_Models.
 message DetectionModel {
   oneof model {
     FasterRcnn faster_rcnn = 1;

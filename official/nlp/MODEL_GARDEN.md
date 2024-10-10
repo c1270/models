@@ -15,7 +15,7 @@ the datasets provided. Checkpoints are licensed under
 by Google. Such datasets are made available by third parties. Please review the
 terms and conditions made available by the third parties before using the data.
 
-### How to Train Models
+### How to Train pre-trained_Models
 
 Model Garden can be easily installed with
 `pip install tf-models-nightly`. After installation, check out
@@ -70,10 +70,10 @@ Note that
 
 ## Useful links
 
-[How to Train Models](https://github.com/tensorflow/models/blob/master/official/nlp/docs/train.md)
+[How to Train pre-trained_Models](https://github.com/tensorflow/models/blob/master/official/nlp/docs/train.md)
 
-[List of Pre-trained Models for finetuning](https://github.com/tensorflow/models/blob/master/official/nlp/docs/pretrained_models.md)
+[List of Pre-trained pre-trained_Models for finetuning](https://github.com/tensorflow/models/blob/master/official/nlp/docs/pretrained_models.md)
 
-[How to Publish Models](https://github.com/tensorflow/models/blob/master/official/nlp/docs/tfhub.md)
+[How to Publish pre-trained_Models](https://github.com/tensorflow/models/blob/master/official/nlp/docs/tfhub.md)
 
 [TensorFlow blog on Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html).

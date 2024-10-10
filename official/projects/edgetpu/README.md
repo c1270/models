@@ -1,4 +1,4 @@
-# Machine Learning Models Optimized for Google Tensor's Edge TPU
+# Machine Learning pre-trained_Models Optimized for Google Tensor's Edge TPU
 
 ## Requirements
 [![TensorFlow 2.4](https://img.shields.io/badge/TensorFlow-2.4-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.4.0)

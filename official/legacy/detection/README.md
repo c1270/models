@@ -1,4 +1,4 @@
-# Object Detection Models on TensorFlow 2
+# Object Detection pre-trained_Models on TensorFlow 2
 
 **WARNING**: This repository will be deprecated and replaced by the solid
 implementations inside vision/beta/.

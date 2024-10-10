@@ -13,7 +13,7 @@ This repository contains TensorFlow 2.x implementation for BERT.
 
 ## Contents
   * [Contents](#contents)
-  * [Pre-trained Models](#pre-trained-models)
+  * [Pre-trained pre-trained_Models](#pre-trained-models)
     * [Restoring from Checkpoints](#restoring-from-checkpoints)
   * [Set Up](#set-up)
   * [Process Datasets](#process-datasets)
@@ -23,7 +23,7 @@ This repository contains TensorFlow 2.x implementation for BERT.
     * [SQuAD 1.1](#squad-1.1)
 
 
-## Pre-trained Models
+## Pre-trained pre-trained_Models
 
 We released both checkpoints and tf.hub modules as the pretrained models for
 fine-tuning. They are TF 2.x compatible and are converted from the checkpoints

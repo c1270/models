@@ -5,7 +5,7 @@ architecture. Please see the paper for more details
 \([arxiv](https://arxiv.org/abs/2204.00484) - selected for oral presentation at
 CVPR 2022\).
 
-### Training Mask-Rcnn Models with backbone frozen.
+### Training Mask-Rcnn pre-trained_Models with backbone frozen.
 
 #### Freezing Resnet-RS-101 checkpoint (ImageNet pretrained).
 

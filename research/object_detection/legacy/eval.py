@@ -14,7 +14,7 @@
 # ==============================================================================
 r"""Evaluation executable for detection models.
 
-This executable is used to evaluate DetectionModels. There are two ways of
+This executable is used to evaluate Detectionpre-trained_Models. There are two ways of
 configuring the eval job.
 
 1) A single pipeline_pb2.TrainEvalPipelineConfig file maybe specified instead.

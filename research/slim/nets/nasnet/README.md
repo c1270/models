@@ -4,7 +4,7 @@ This directory contains the code for the NASNet-A model from the paper
 In nasnet.py there are three different configurations of NASNet-A that are implementented. One of the models is the NASNet-A built for CIFAR-10 and the
 other two are variants of NASNet-A trained on ImageNet, which are listed below.
 
-# Pre-Trained Models
+# Pre-Trained pre-trained_Models
 Two NASNet-A checkpoints are available that have been trained on the
 [ILSVRC-2012-CLS](http://www.image-net.org/challenges/LSVRC/2012/)
 image classification dataset. Accuracies were computed by evaluating using a single image crop.
@@ -25,7 +25,7 @@ wget https://storage.googleapis.com/download.tensorflow.org/models/nasnet-a_mobi
 tar -xvf nasnet-a_mobile_04_10_2017.tar.gz
 rm nasnet-a_mobile_04_10_2017.tar.gz
 ```
-More information on integrating NASNet Models into your project can be found at the [TF-Slim Image Classification Library](https://github.com/tensorflow/models/blob/master/research/slim/README.md).
+More information on integrating NASNet pre-trained_Models into your project can be found at the [TF-Slim Image Classification Library](https://github.com/tensorflow/models/blob/master/research/slim/README.md).
 
 To get started running models on-device go to [TensorFlow Mobile](https://www.tensorflow.org/mobile/).
 

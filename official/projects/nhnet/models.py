@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""tf.keras Models for NHNet."""
+"""tf.keras pre-trained_Models for NHNet."""
 from typing import Optional, Text
 
 from absl import logging

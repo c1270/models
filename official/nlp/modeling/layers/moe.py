@@ -35,7 +35,7 @@ _DEFAULT_BIAS_INITIALIZER = tf_keras.initializers.Zeros()
 def _router_z_loss(router_logits: tf.Tensor) -> float:
   """Computes router z-loss.
 
-   The router z-loss was introduced in Designing Effective Sparse Expert Models
+   The router z-loss was introduced in Designing Effective Sparse Expert pre-trained_Models
    (https://arxiv.org/abs/2202.08906). It encourages router logits to remain
    small in an effort to improve stability.
 

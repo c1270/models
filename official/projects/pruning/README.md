@@ -34,7 +34,7 @@ python3 train.py \
 
 Note: The Top-1 model accuracy is measured on the validation set of [ImageNet](https://www.image-net.org/).
 
-## Pre-trained Models
+## Pre-trained pre-trained_Models
 
 ### Image Classification
 

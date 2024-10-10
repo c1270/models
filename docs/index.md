@@ -41,7 +41,7 @@ models*.
 
 ### Official models {:#official}
 
-The [Official Models](https://github.com/tensorflow/models/tree/master/official)
+The [Official pre-trained_Models](https://github.com/tensorflow/models/tree/master/official)
 repository is a collection of state-of-the-art models, with a focus on
 vision and natural language processing (NLP).
 These models are implemented using current TensorFlow 2.x high-level
@@ -52,7 +52,7 @@ metadata you can use to quickly configure experiments using the Model Garden
 
 ### Research models {:#research}
 
-The [Research Models](https://github.com/tensorflow/models/tree/master/research)
+The [Research pre-trained_Models](https://github.com/tensorflow/models/tree/master/research)
 repository is a collection of models published as code resources for research
 papers. These models are implemented using both TensorFlow 1.x and 2.x. Model
 libraries in the research folder are supported by the code owners and the
@@ -87,7 +87,7 @@ configuration objects:
 For a complete example using the Model Garden training experiment framework, see
 the [Image classification with Model Garden](vision/image_classification.ipynb)
 tutorial. For information on the training experiment framework, check out the
-[TensorFlow Models API documentation](https://tensorflow.org/api_docs/python/tfm/core).
+[TensorFlow pre-trained_Models API documentation](https://tensorflow.org/api_docs/python/tfm/core).
 If you are looking for a solution to manage training loops for your model
 training experiments, check out [Orbit](#orbit).
 
@@ -95,9 +95,9 @@ training experiments, check out [Orbit](#orbit).
 
 The Model Garden contains many vision and NLP operations specifically designed
 to execute state-of-the-art models that run efficiently on GPUs and TPUs. Review
-the TensorFlow Models Vision library API docs for a list of specialized
+the TensorFlow pre-trained_Models Vision library API docs for a list of specialized
 [vision operations](https://www.tensorflow.org/api_docs/python/tfm/vision).
-Review the TensorFlow Models NLP Library API docs for a list of
+Review the TensorFlow pre-trained_Models NLP Library API docs for a list of
 [NLP operations](https://www.tensorflow.org/api_docs/python/tfm/nlp). These
 libraries also include additional utility functions used for vision and NLP data
 processing, training, and model execution.

@@ -4,13 +4,13 @@
 
 This doc explains how to use TF-NLP's
 [export_tfhub](https://github.com/tensorflow/models/blob/master/official/nlp/tools/export_tfhub.py)
-tool to export pre-trained Transformer encoders to SavedModels suitable for
+tool to export pre-trained Transformer encoders to Savedpre-trained_Models suitable for
 publication on TF Hub. (For the steps after that, see TF Hub's
 [publisher guide](https://www.tensorflow.org/hub/publish).)
-For testing purposes, those SavedModels can also be used from their export
+For testing purposes, those Savedpre-trained_Models can also be used from their export
 locations on the filesystem.
 
-On TF Hub, Transformer encoders for text come as a pair of SavedModels:
+On TF Hub, Transformer encoders for text come as a pair of Savedpre-trained_Models:
 
 *   The preprocessing model applies a tokenizer with a fixed vocab plus some
     additional logic to turn text into Transformer inputs.
@@ -19,7 +19,7 @@ On TF Hub, Transformer encoders for text come as a pair of SavedModels:
 
 TF Hub defines
 [Common APIs](https://www.tensorflow.org/hub/common_saved_model_apis/text#transformer-encoders)
-for all SavedModels of those two respective types, encapsulating the particular
+for all Savedpre-trained_Models of those two respective types, encapsulating the particular
 choice of preprocessing logic and Encoder architecture.
 
 ## Exporting the Encoder
@@ -283,7 +283,7 @@ mask_id = int(special_tokens_dict["mask_id"])  # [MASK]
 
 ## Testing the exported models
 
-Please test your SavedModels before publication by fine-tuning them on a
+Please test your Savedpre-trained_Models before publication by fine-tuning them on a
 suitable task and comparing performance and accuracy to a baseline experiment
 built from equivalent Python code.
 The

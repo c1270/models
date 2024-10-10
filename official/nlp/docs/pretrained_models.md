@@ -1,4 +1,4 @@
-# Pre-trained Models
+# Pre-trained pre-trained_Models
 
 ⚠️ Disclaimer: Checkpoints are based on training with publicly available datasets.
 Some datasets contain limitations, including non-commercial use limitations. Please review the terms and conditions made available by third parties before using
@@ -12,7 +12,7 @@ terms and conditions made available by the third parties before using the data.
 We provide a large collection of baselines and checkpoints for NLP pre-trained
 models.
 
-## How to Load Pretrained Models
+## How to Load Pretrained pre-trained_Models
 
 ### How to Initialize from Checkpoint
 
@@ -54,7 +54,7 @@ in order to keep consistent with BERT paper.
 
 ### Checkpoints
 
-Model                                    | Configuration                | Training Data | Checkpoint & Vocabulary | TF-HUB SavedModels
+Model                                    | Configuration                | Training Data | Checkpoint & Vocabulary | TF-HUB Savedpre-trained_Models
 ---------------------------------------- | :--------------------------: | ------------: | ----------------------: | ------:
 BERT-base uncased English                | uncased_L-12_H-768_A-12      | Wiki + Books  | [uncased_L-12_H-768_A-12](https://storage.googleapis.com/tf_model_garden/nlp/bert/v3/uncased_L-12_H-768_A-12.tar.gz) | [`BERT-Base, Uncased`](https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/)
 BERT-base cased English                  | cased_L-12_H-768_A-12        | Wiki + Books  | [cased_L-12_H-768_A-12](https://storage.googleapis.com/tf_model_garden/nlp/bert/v3/cased_L-12_H-768_A-12.tar.gz) | [`BERT-Base, Cased`](https://tfhub.dev/tensorflow/bert_en_cased_L-12_H-768_A-12/)
@@ -74,7 +74,7 @@ We also have pretrained BERT models with variants in both network architecture
 and training methodologies. These models achieve higher downstream accuracy
 scores.
 
-Model                            | Configuration            | Training Data            | TF-HUB SavedModels                                                                    | Comment
+Model                            | Configuration            | Training Data            | TF-HUB Savedpre-trained_Models                                                                    | Comment
 -------------------------------- | :----------------------: | -----------------------: | ------------------------------------------------------------------------------------: | ------:
 BERT-base talking heads + ggelu  | uncased_L-12_H-768_A-12  | Wiki + Books   | [talkheads_ggelu_base](https://tfhub.dev/tensorflow/talkheads_ggelu_bert_en_base/1)   | BERT-base trained with [talking heads attention](https://arxiv.org/abs/2003.02436) and [gated GeLU](https://arxiv.org/abs/2002.05202).
 BERT-large talking heads + ggelu | uncased_L-24_H-1024_A-16 | Wiki + Books  | [talkheads_ggelu_large](https://tfhub.dev/tensorflow/talkheads_ggelu_bert_en_large/1) | BERT-large trained with [talking heads attention](https://arxiv.org/abs/2003.02436) and [gated GeLU](https://arxiv.org/abs/2002.05202).
@@ -96,7 +96,7 @@ ALBERT repository.
 
 ### Checkpoints
 
-Model                                    | Training Data | Checkpoint & Vocabulary | TF-HUB SavedModels
+Model                                    | Training Data | Checkpoint & Vocabulary | TF-HUB Savedpre-trained_Models
 ---------------------------------------- | ------------: | ----------------------: | ------:
 ALBERT-base English               |  Wiki + Books  | [`ALBERT Base`](https://storage.googleapis.com/tf_model_garden/nlp/albert/albert_base.tar.gz) | https://tfhub.dev/tensorflow/albert_en_base/3
 ALBERT-large English               |  Wiki + Books  | [`ALBERT Large`](https://storage.googleapis.com/tf_model_garden/nlp/albert/albert_large.tar.gz) | https://tfhub.dev/tensorflow/albert_en_large/3

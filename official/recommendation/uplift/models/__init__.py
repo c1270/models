@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Models package definition."""
+"""pre-trained_Models package definition."""
 
 from official.recommendation.uplift.models import two_tower_uplift_model

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-r"""Exports the LaBSE model and its preprocessing as SavedModels for TF Hub.
+r"""Exports the LaBSE model and its preprocessing as Savedpre-trained_Models for TF Hub.
 
 Example usage:
 # Point this variable to your training results.

@@ -1,7 +1,7 @@
 # Mobile Video Networks (MoViNets)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/models/blob/master/official/projects/movinet/movinet_tutorial.ipynb)
-[![TensorFlow Hub](https://img.shields.io/badge/TF%20Hub-Models-FF6F00?logo=tensorflow)](https://tfhub.dev/google/collections/movinet)
+[![TensorFlow Hub](https://img.shields.io/badge/TF%20Hub-pre-trained_Models-FF6F00?logo=tensorflow)](https://tfhub.dev/google/collections/movinet)
 [![Paper](http://img.shields.io/badge/Paper-arXiv.2103.11511-B3181B?logo=arXiv)](https://arxiv.org/abs/2103.11511)
 
 This repository is the official implementation of
@@ -99,7 +99,7 @@ pip install -r requirements.txt
 
 ## Results and Pretrained Weights
 
-[![TensorFlow Hub](https://img.shields.io/badge/TF%20Hub-Models-FF6F00?logo=tensorflow)](https://tfhub.dev/google/collections/movinet)
+[![TensorFlow Hub](https://img.shields.io/badge/TF%20Hub-pre-trained_Models-FF6F00?logo=tensorflow)](https://tfhub.dev/google/collections/movinet)
 [![TensorBoard](https://img.shields.io/badge/TensorBoard-dev-FF6F00?logo=tensorflow)](https://tensorboard.dev/experiment/Q07RQUlVRWOY4yDw3SnSkA/)
 
 ### Kinetics 600
@@ -119,7 +119,7 @@ single clips with the same resolution as training.
 Note: MoViNet-A6 can be constructed as an ensemble of MoViNet-A4 and
 MoViNet-A5.
 
-#### Base Models
+#### Base pre-trained_Models
 
 Base models implement standard 3D convolutions without stream buffers. Base
 models are not recommended for fast inference on CPU or mobile due to
@@ -138,7 +138,7 @@ Instead, see the [streaming models section](#streaming-models).
 
 \*GFLOPs per video on Kinetics 600.
 
-#### Streaming Models
+#### Streaming pre-trained_Models
 
 Streaming models implement causal (2+1)D convolutions with stream buffers.
 Streaming models use (2+1)D convolution instead of 3D to utilize optimized
@@ -169,7 +169,7 @@ Note: current streaming model checkpoints have been updated with a slightly
 different architecture. To download the old checkpoints, insert `_legacy` before
 `.tar.gz` in the URL. E.g., `movinet_a0_stream_legacy.tar.gz`.
 
-##### TF Lite Streaming Models
+##### TF Lite Streaming pre-trained_Models
 
 For convenience, we provide converted TF Lite models for inference on mobile
 devices. See the [TF Lite Example](#tf-lite-example) to export and run your own
@@ -198,7 +198,7 @@ W-2135 CPU.
 We also have checkpoints for Kinetics 400 models available. See the Kinetics 600
 sections for more details. To load checkpoints, set `num_classes=400`.
 
-#### Base Models
+#### Base pre-trained_Models
 
 | Model Name | Top-1 Accuracy | Top-5 Accuracy | Input Shape | GFLOPs\* | Checkpoint |
 |------------|----------------|----------------|-------------|----------|------------|

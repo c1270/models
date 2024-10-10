@@ -84,10 +84,10 @@ segmentation.
 
 <details>
 
-* Models are trained from scratch with batch size 4096 and 1.6 initial learning
+* pre-trained_Models are trained from scratch with batch size 4096 and 1.6 initial learning
   rate.
 * Linear warmup is applied for the first 5 epochs.
-* Models trained with l2 weight regularization and ReLU activation.
+* pre-trained_Models trained with l2 weight regularization and ReLU activation.
 
 | Model        | Resolution    | Epochs  |  Top-1  |  Top-5  | Download |
 | ------------ |:-------------:|--------:|--------:|--------:|---------:|
@@ -159,7 +159,7 @@ ViT-l16  | 224x224    | 82.2  | 95.8  | [ckpt](https://storage.googleapis.com/tf
     *   [Mask R-CNN](https://arxiv.org/abs/1703.06870)
     *   [Cascade RCNN](https://arxiv.org/abs/1712.00726) and
         [Cascade RCNN-RS](https://arxiv.org/abs/2107.00057)
-*   Models are all trained on [COCO](https://cocodataset.org/) train2017 and
+*   pre-trained_Models are all trained on [COCO](https://cocodataset.org/) train2017 and
     evaluated on [COCO](https://cocodataset.org/) val2017.
     *   The checkpoints were trained on annotations
     [owned and licensed by the COCO Consortium](https://cocodataset.org/#termsofuse)
@@ -171,8 +171,8 @@ ViT-l16  | 224x224    | 82.2  | 95.8  | [ckpt](https://storage.googleapis.com/tf
     various Creative Commons licenses, and users of the images accept full
     responsibility for the use of the dataset.
 *   Training details:
-    *   Models finetuned from [ImageNet](https://www.image-net.org/) pretrained
-        checkpoints adopt the 12 or 36 epochs schedule. Models trained from
+    *   pre-trained_Models finetuned from [ImageNet](https://www.image-net.org/) pretrained
+        checkpoints adopt the 12 or 36 epochs schedule. pre-trained_Models trained from
         scratch adopt the 350 epochs schedule.
     *   The default training data augmentation implements horizontal flipping
         and scale jittering with a random scale between [0.5, 2.0].

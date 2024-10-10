@@ -362,7 +362,7 @@ def load_fine_tune_checkpoint(model, checkpoint_path, checkpoint_type,
   """Load a fine tuning classification or detection checkpoint.
 
   To make sure the model variables are all built, this method first executes
-  the model by computing a dummy loss. (Models might not have built their
+  the model by computing a dummy loss. (pre-trained_Models might not have built their
   variables before their first execution)
 
   It then loads an object-based classification or detection checkpoint.

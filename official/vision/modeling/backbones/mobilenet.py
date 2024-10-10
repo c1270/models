@@ -450,7 +450,7 @@ MNV3EdgeTPU_BLOCK_SPECS = {
 """
 Architecture: https://arxiv.org/pdf/2008.08178.pdf
 
-"Discovering Multi-Hardware Mobile Models via Architecture Search"
+"Discovering Multi-Hardware Mobile pre-trained_Models via Architecture Search"
 Grace Chu, Okan Arikan, Gabriel Bender, Weijun Wang,
 Achille Brighton, Pieter-Jan Kindermans, Hanxiao Liu,
 Berkin Akin, Suyog Gupta, and Andrew Howard
@@ -628,7 +628,7 @@ MNV3SmallReducedFilters = {
 """
 Architecture: https://arxiv.org/abs/2404.10518
 
-"MobileNetV4 - Universal Models for the Mobile Ecosystem"
+"MobileNetV4 - Universal pre-trained_Models for the Mobile Ecosystem"
 Danfeng Qin, Chas Leichner, Manolis Delakis, Marco Fornoni, Shixin Luo, Fan
 Yang, Weijun Wang, Colby Banbury, Chengxi Ye, Berkin Akin, Vaibhav Aggarwal,
 Tenghui Zhu, Daniele Moro, Andrew Howard

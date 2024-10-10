@@ -14,7 +14,7 @@ version uses a ResNet50 model implemented in
 [`resnet_model.py`](./resnet_model.py).
 
 
-### Pretrained Models
+### Pretrained pre-trained_Models
 
 * [ResNet50 Checkpoints](https://storage.googleapis.com/cloud-tpu-checkpoints/resnet/resnet50.tar.gz)
 

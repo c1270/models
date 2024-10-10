@@ -44,7 +44,7 @@ class LSTMSSDInterleavedMobilenetV2FeatureExtractor(
                use_explicit_padding=False,
                use_depthwise=True,
                override_base_feature_extractor_hyperparams=False):
-    """Interleaved Feature Extractor for LSTD Models with MobileNet v2.
+    """Interleaved Feature Extractor for LSTD pre-trained_Models with MobileNet v2.
 
     Args:
       is_training: whether the network is in training mode.

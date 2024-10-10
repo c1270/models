@@ -221,7 +221,7 @@ class LearningRateConfig(hyperparams.Config):
 
 @dataclasses.dataclass
 class ModelConfig(hyperparams.Config):
-  """Configuration for Models.
+  """Configuration for pre-trained_Models.
 
   Attributes:
     name: The name of the model. Defaults to None.
