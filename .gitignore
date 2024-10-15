@@ -96,3 +96,6 @@ ENV/
 
 # For mac
 .DS_Store
+
+#追跡から除外する大きなファイル
+deeplab_model/deeplabv3_pascal_trainval_2018_01_04.tar.gz
