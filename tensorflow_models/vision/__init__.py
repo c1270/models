@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""TensorFlow Models Vision Libraries."""
+"""TensorFlow pre-trained_Models Vision Libraries."""
 from official.vision import configs
 from official.vision import serving
 from official.vision.modeling import *

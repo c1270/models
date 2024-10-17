@@ -32,8 +32,8 @@ Evaluation time:
 inputs (images tensor) -> preprocess -> predict -> postprocess
  -> outputs (boxes tensor, scores tensor, classes tensor, num_detections tensor)
 
-DetectionModels must thus implement four functions (1) preprocess, (2) predict,
-(3) postprocess and (4) loss.  DetectionModels should make no assumptions about
+Detectionpre-trained_Models must thus implement four functions (1) preprocess, (2) predict,
+(3) postprocess and (4) loss.  Detectionpre-trained_Models should make no assumptions about
 the input size or aspect ratio --- they are responsible for doing any
 resize/reshaping necessary (see docstring for the preprocess function).
 Output classes are always integers in the range [0, num_classes).  Any mapping
@@ -50,7 +50,7 @@ This is useful for padding images to be a fixed size for batching.
 The `postprocess` method uses the true image shapes to clip predictions that lie
 outside of images.
 
-By default, DetectionModels produce bounding box detections; However, we support
+By default, Detectionpre-trained_Models produce bounding box detections; However, we support
 a handful of auxiliary annotations associated with each bounding box, namely,
 instance masks and keypoints.
 """

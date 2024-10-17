@@ -1,4 +1,4 @@
-# Running TF2 Detection API Models on mobile
+# Running TF2 Detection API pre-trained_Models on mobile
 
 [![TensorFlow 2.4](https://img.shields.io/badge/TensorFlow-2.4-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.4.0)
 [![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)

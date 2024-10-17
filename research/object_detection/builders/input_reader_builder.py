@@ -15,7 +15,7 @@
 
 """Input reader builder.
 
-Creates data sources for DetectionModels from an InputReader config. See
+Creates data sources for Detectionpre-trained_Models from an InputReader config. See
 input_reader.proto for options.
 
 Note: If users wishes to also use their own InputReaders with the Object

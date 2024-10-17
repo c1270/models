@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Sets up TensorFlow Official Models."""
+"""Sets up TensorFlow Official pre-trained_Models."""
 import datetime
 import os
 import sys
@@ -78,7 +78,7 @@ print('dependency_links: ', dependency_links)
 setup(
     name=project_name,
     version=version,
-    description='TensorFlow Official Models',
+    description='TensorFlow Official pre-trained_Models',
     long_description=long_description,
     author='Google Inc.',
     author_email='packages@tensorflow.org',

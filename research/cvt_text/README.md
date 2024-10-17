@@ -16,7 +16,7 @@ To apply CVT to other datasets, the data should be placed in `data/raw_data/<tas
 After all of the data has been downloaded, run `preprocessing.py`.
 
 ## Training a Model
-Run `python cvt.py --mode=train --model_name=chunking_model`. By default this trains a model on the chunking data downloaded with `fetch_data.sh`. To change which task(s) are trained on or model hyperparameters, modify [base/configure.py](base/configure.py). Models are automatically checkpointed every 1000 steps; training will continue from the latest checkpoint if training is interrupted and restarted. Model checkpoints and other data such as dev set accuracy over time are stored in `data/models/<model_name>`.
+Run `python cvt.py --mode=train --model_name=chunking_model`. By default this trains a model on the chunking data downloaded with `fetch_data.sh`. To change which task(s) are trained on or model hyperparameters, modify [base/configure.py](base/configure.py). pre-trained_Models are automatically checkpointed every 1000 steps; training will continue from the latest checkpoint if training is interrupted and restarted. Model checkpoints and other data such as dev set accuracy over time are stored in `data/models/<model_name>`.
 
 ## Evaluating a Model
 Run `python cvt.py --mode=eval --model_name=chunking_model`. A CVT model trained on the chunking data for 200k steps should get at least 97.1 F1 on the dev set and 96.6 F1 on the test set.

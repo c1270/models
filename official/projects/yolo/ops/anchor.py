@@ -118,7 +118,7 @@ def get_best_anchor(y_true,
 
 
 class YoloAnchorLabeler:
-  """Anchor labeler for the Yolo Models."""
+  """Anchor labeler for the Yolo pre-trained_Models."""
 
   def __init__(self,
                anchors=None,

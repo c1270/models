@@ -1,4 +1,4 @@
-# Quantization Aware Training for Computer Vision Models
+# Quantization Aware Training for Computer Vision pre-trained_Models
 
 ⚠️ Disclaimer: All datasets hyperlinked from this page are not owned or
 distributed by Google. The dataset is made available by third parties.

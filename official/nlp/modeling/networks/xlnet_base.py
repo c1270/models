@@ -370,7 +370,7 @@ class RelativePositionEncoding(tf_keras.layers.Layer):
   """Creates a relative positional encoding.
 
   This layer creates a relative positional encoding as described in
-  "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"
+  "Transformer-XL: Attentive Language pre-trained_Models Beyond a Fixed-Length Context"
   (https://arxiv.org/abs/1901.02860).
 
   Rather than an absolute position embedding as in Transformer, this

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Flags and common definitions for Ranking Models."""
+"""Flags and common definitions for Ranking pre-trained_Models."""
 
 from absl import flags
 import tensorflow as tf, tf_keras

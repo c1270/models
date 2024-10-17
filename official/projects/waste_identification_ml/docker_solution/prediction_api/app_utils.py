@@ -62,7 +62,7 @@ class ModelManager:
   detections with them.
 
   Attributes:
-    detection_fns: The detection functions loaded from TensorFlow SavedModels.
+    detection_fns: The detection functions loaded from TensorFlow Savedpre-trained_Models.
   """
 
   def __init__(self):
@@ -93,7 +93,7 @@ class ModelManager:
     self.detection_fns = [
         self.load_model(value) for value in MODELS_DIR_PATH.values()
     ]
-    logger.info('Models loaded!')
+    logger.info('pre-trained_Models loaded!')
 
 
 class NumpyEncoder(json.JSONEncoder):

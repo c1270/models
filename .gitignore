@@ -96,3 +96,6 @@ ENV/
 
 # For mac
 .DS_Store
+
+#追跡から除外する大きなファイル
+deeplab_model/

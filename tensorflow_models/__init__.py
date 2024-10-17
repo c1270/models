@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""TensorFlow Models Libraries."""
+"""TensorFlow pre-trained_Models Libraries."""
 # pylint: disable=wildcard-import
 from tensorflow_models import nlp
 from tensorflow_models import uplift

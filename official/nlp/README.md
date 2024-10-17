@@ -25,7 +25,7 @@ We provide modeling library to allow users to train custom models for new
 research ideas. Detailed instructions can be found in READMEs in each folder.
 
 *   [modeling/](modeling): modeling library that provides building blocks
-    (e.g.,Layers, Networks, and Models) that can be assembled into
+    (e.g.,Layers, Networks, and pre-trained_Models) that can be assembled into
     transformer-based architectures.
 *   [data/](data): binaries and utils for input preprocessing, tokenization,
     etc.
@@ -66,13 +66,13 @@ object with a standardized configuration.
 | [FunnelTransformerEncoder](https://www.tensorflow.org/api_docs/python/tfm/nlp/networks/FunnelTransformerEncoder) \| [PackedSequenceEmbedding](https://www.tensorflow.org/api_docs/python/tfm/nlp/networks/PackedSequenceEmbedding) \| [SpanLabeling](https://www.tensorflow.org/api_docs/python/tfm/nlp/networks/SpanLabeling) \| [SparseMixer](https://www.tensorflow.org/api_docs/python/tfm/nlp/networks/SparseMixer) \| [XLNetBase](https://www.tensorflow.org/api_docs/python/tfm/nlp/networks/XLNetBase) |
 | [XLNetSpanLabeling](https://www.tensorflow.org/api_docs/python/tfm/nlp/networks/XLNetSpanLabeling) |
 
-### Models
+### pre-trained_Models
 
-Models are combinations of `tf.keras` layers and models that can be trained.
+pre-trained_Models are combinations of `tf.keras` layers and models that can be trained.
 Several pre-built canned models are provided to train encoder networks. These
 models are intended as both convenience functions and canonical examples.
 
-| Models       |
+| pre-trained_Models       |
 | ------------ |
 | [BertClassifier](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/BertClassifier) \| [BertPretrainer](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/BertPretrainer) \| [BertPretrainerV2](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/BertPretrainerV2) \| [BertSpanLabeler](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/BertSpanLabeler) \| [BertTokenClassifier](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/BertTokenClassifier) \| [DualEncoder](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/DualEncoder) |
 | [ElectraPretrainer](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/ElectraPretrainer) \| [Seq2SeqTransformer](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/Seq2SeqTransformer) \| [T5Transformer](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/T5Transformer) \| [T5TransformerParams](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/T5TransformerParams) \| [TransformerDecoder](https://www.tensorflow.org/api_docs/python/tfm/nlp/models/TransformerDecoder) |

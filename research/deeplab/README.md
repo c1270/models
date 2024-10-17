@@ -147,7 +147,7 @@ Running:
 *   <a href='g3doc/cityscapes.md'>Running DeepLab on Cityscapes semantic segmentation dataset.</a><br>
 *   <a href='g3doc/ade20k.md'>Running DeepLab on ADE20K semantic segmentation dataset.</a><br>
 
-Models:
+pre-trained_Models:
 
 *   <a href='g3doc/model_zoo.md'>Checkpoints and frozen inference graphs.</a><br>
 

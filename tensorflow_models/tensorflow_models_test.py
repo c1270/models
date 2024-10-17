@@ -18,7 +18,7 @@ import tensorflow as tf, tf_keras
 import tensorflow_models as tfm
 
 
-class TensorflowModelsTest(tf.test.TestCase):
+class Tensorflowpre-trained_ModelsTest(tf.test.TestCase):
 
   def testVisionImport(self):
     _ = tfm.vision.layers.SqueezeExcitation(

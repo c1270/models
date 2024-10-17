@@ -1,10 +1,10 @@
-# Sequence Projection Models
+# Sequence Projection pre-trained_Models
 
 This repository contains implementation of the following papers.
 
 * [*PRADO: Projection Attention Networks for Document Classification On-Device*](https://www.aclweb.org/anthology/D19-1506/)
 * [*Self-Governing Neural Networks for On-Device Short Text Classification*](https://www.aclweb.org/anthology/D18-1105/)
-* [*Tiny Neural Models for Seq2Seq*] (https://arxiv.org/abs/2108.03340)
+* [*Tiny Neural pre-trained_Models for Seq2Seq*] (https://arxiv.org/abs/2108.03340)
 
 ## Description
 

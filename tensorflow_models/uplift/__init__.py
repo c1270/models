@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""TensorFlow Models Uplift Libraries."""
+"""TensorFlow pre-trained_Models Uplift Libraries."""
 
 from official.recommendation.uplift import keys
 from official.recommendation.uplift import layers

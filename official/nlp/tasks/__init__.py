@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""TensorFlow Models NLP Tasks."""
+"""TensorFlow pre-trained_Models NLP Tasks."""
 # pylint: disable=g-multiple-import
 from official.nlp.tasks.electra_task import ElectraPretrainConfig, ElectraPretrainTask
 from official.nlp.tasks.masked_lm import MaskedLMConfig, MaskedLMTask

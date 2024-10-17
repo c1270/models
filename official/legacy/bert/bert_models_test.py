@@ -19,10 +19,10 @@ from official.legacy.bert import configs as bert_configs
 from official.nlp.modeling import networks
 
 
-class BertModelsTest(tf.test.TestCase):
+class Bertpre-trained_ModelsTest(tf.test.TestCase):
 
   def setUp(self):
-    super(BertModelsTest, self).setUp()
+    super(Bertpre-trained_ModelsTest, self).setUp()
     self._bert_test_config = bert_configs.BertConfig(
         attention_probs_dropout_prob=0.0,
         hidden_act='gelu',

@@ -1,6 +1,6 @@
 ![Logo](https://storage.googleapis.com/tf_model_garden/tf_model_garden_logo.png)
 
-# TensorFlow Community Models
+# TensorFlow Community pre-trained_Models
 
 This repository provides a curated list of the GitHub repositories with machine learning models and implementations powered by TensorFlow 2.
 

@@ -247,7 +247,7 @@ def export_model(export_path: Text,
     pooler_checkpoint.restore(
         model_checkpoint_path).assert_existing_objects_matched()
 
-  # Before SavedModels for preprocessing appeared in Oct 2020, the encoders
+  # Before Savedpre-trained_Models for preprocessing appeared in Oct 2020, the encoders
   # provided this information to let users do preprocessing themselves.
   # We keep doing that for now. It helps users to upgrade incrementally.
   # Moreover, it offers an escape hatch for advanced users who want the
@@ -368,7 +368,7 @@ def create_preprocessing(*,
   preprocessing = tf_keras.Model(sentences, model_inputs)
 
   # Individual steps of preprocessing are made available as named subobjects
-  # to enable more general preprocessing. For saving, they need to be Models
+  # to enable more general preprocessing. For saving, they need to be pre-trained_Models
   # in their own right.
   preprocessing.tokenize = tf_keras.Model(sentences, tokens)
   # Provide an equivalent to tokenize.get_special_tokens_dict().
@@ -438,7 +438,7 @@ def export_preprocessing(export_path: Text,
 # or impossible (notably when using "headless" TPU workers on Cloud that do not
 # have a channel to the coordinator). The bug has been fixed in time for TF 2.5.
 # To work around this, the following code avoids Assert ops in the exported
-# SavedModels. It monkey-patches calls to tf.Assert from inside TensorFlow and
+# Savedpre-trained_Models. It monkey-patches calls to tf.Assert from inside TensorFlow and
 # replaces them by a no-op while building the exported model. This is fragile,
 # so _check_no_assert() validates the result. The resulting model should be fine
 # to read on future versions of TF, even if this workaround at export time

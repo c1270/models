@@ -53,7 +53,7 @@ class EmbeddedSSDMobileNetV1FeatureExtractor(ssd_meta_arch.SSDFeatureExtractor):
                use_explicit_padding=False,
                use_depthwise=False,
                override_base_feature_extractor_hyperparams=False):
-    """MobileNetV1 Feature Extractor for Embedded-friendly SSD Models.
+    """MobileNetV1 Feature Extractor for Embedded-friendly SSD pre-trained_Models.
 
     Args:
       is_training: whether the network is in training mode.

@@ -15,7 +15,7 @@
 
 r"""Evaluation executable for detection models.
 
-This executable is used to evaluate DetectionModels. Example usage:
+This executable is used to evaluate Detectionpre-trained_Models. Example usage:
     ./eval \
         --logtostderr \
         --checkpoint_dir=path/to/checkpoint_dir \

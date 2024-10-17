@@ -9,5 +9,5 @@ further depending on application.
 
 3. [TF-Hub guide](tfhub.md) explain how to use TF-NLP's
 [export_tfhub](https://github.com/tensorflow/models/blob/master/official/nlp/tools/export_tfhub.py)
-tool to export pre-trained Transformer encoders to SavedModels format that are
+tool to export pre-trained Transformer encoders to Savedpre-trained_Models format that are
 suitable for publication on TF Hub.

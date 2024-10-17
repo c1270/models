@@ -1,4 +1,4 @@
-# EdgeTPU-optimized Vision Models
+# EdgeTPU-optimized Vision pre-trained_Models
 
 ## Image classification task
 
@@ -171,7 +171,7 @@ By fusing argmax with resize operator as shown above, it is possible to further
 improve the on-device latency of the segmentation models without significantly
 impacting the quality:
 
-Note: Models with default argmax and fusing argmax are using the same checkpoint
+Note: pre-trained_Models with default argmax and fusing argmax are using the same checkpoint
 since there is no parameter change.
 
 | Model Name | ADE20K 32-class mIOU| Pixel 6 EdgeTPU latency (ms)| tflite |

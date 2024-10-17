@@ -12,7 +12,7 @@ You can install the TensorFlow Object Detection API either with Python Package
 Installer (pip) or Docker. For local runs we recommend using Docker and for
 Google Cloud runs we recommend using pip.
 
-Clone the TensorFlow Models repository and proceed to one of the installation
+Clone the TensorFlow pre-trained_Models repository and proceed to one of the installation
 options.
 
 ```bash

@@ -438,7 +438,7 @@ file.
 
 Acronym | Meaning
 ------- | --------------------------
-TFM     | Tensorflow Models
+TFM     | Tensorflow pre-trained_Models
 FAQs    | Frequently Asked Questions
 YAQ     | Yet Another Question
 TF      | TensorFlow

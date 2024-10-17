@@ -55,7 +55,7 @@ $ cd models
 $ pip3 install -r official/requirements.txt
 ```
 
-## Training Models
+## Training pre-trained_Models
 
 The configurations can be found in the `configs/experiments` directory. You can
 launch a training job by executing.

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Models under Vision package."""
+"""pre-trained_Models under Vision package."""
 
 from official.vision.modeling.classification_model import ClassificationModel
 from official.vision.modeling.maskrcnn_model import MaskRCNNModel

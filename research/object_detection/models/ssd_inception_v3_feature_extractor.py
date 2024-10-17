@@ -38,7 +38,7 @@ class SSDInceptionV3FeatureExtractor(ssd_meta_arch.SSDFeatureExtractor):
                use_depthwise=False,
                num_layers=6,
                override_base_feature_extractor_hyperparams=False):
-    """InceptionV3 Feature Extractor for SSD Models.
+    """InceptionV3 Feature Extractor for SSD pre-trained_Models.
 
     Args:
       is_training: whether the network is in training mode.

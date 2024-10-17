@@ -52,7 +52,7 @@ convenience.
 
 This container is derived from the nightly build of TensorFlow, and contains the
 sources for TensorFlow at `/tensorflow`, as well as the
-[TensorFlow Models](https://github.com/tensorflow/models) which are available at
+[TensorFlow pre-trained_Models](https://github.com/tensorflow/models) which are available at
 `/tensorflow/models` (and contain the Object Detection API as a subdirectory
 at `/tensorflow/models/research/object_detection`).
 The Oxford-IIIT Pets dataset, the COCO pre-trained SSD + MobileNet (v1)

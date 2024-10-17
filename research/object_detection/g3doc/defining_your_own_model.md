@@ -6,7 +6,7 @@ architecture for detection and use it in the TensorFlow Detection API,
 then this section should also serve as a high level guide to the files that you
 will need to edit to get your new model working.
 
-## DetectionModels (`object_detection/core/model.py`)
+## Detectionpre-trained_Models (`object_detection/core/model.py`)
 
 In order to be trained, evaluated, and exported for serving  using our
 provided binaries, all models under the TensorFlow Object Detection API must

@@ -43,7 +43,7 @@ class LSTMSSDMobileNetV1FeatureExtractor(
                use_depthwise=True,
                override_base_feature_extractor_hyperparams=False,
                lstm_state_depth=256):
-    """Initializes instance of MobileNetV1 Feature Extractor for LSTMSSD Models.
+    """Initializes instance of MobileNetV1 Feature Extractor for LSTMSSD pre-trained_Models.
 
     Args:
       is_training: A boolean whether the network is in training mode.

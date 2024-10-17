@@ -10,7 +10,7 @@ and return as output:
   embeddings of each frame of audio.
 - a 2-d float32 Tensor of shape [num_spectrogram_frames, num_mel_bins]
   containing the log mel spectrogram of the entire waveform.
-The SavedModels will also contain (as an asset) a class map CSV file that maps
+The Savedpre-trained_Models will also contain (as an asset) a class map CSV file that maps
 class indices to AudioSet class names and Freebase MIDs. The path to the class
 map is available as the 'class_map_path()' method of the restored model.
 

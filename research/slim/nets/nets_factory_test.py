@@ -59,7 +59,7 @@ class NetworksTest(tf.test.TestCase):
           self.assertEqual(logits.get_shape().as_list()[0], batch_size)
           self.assertEqual(logits.get_shape().as_list()[-1], num_classes)
 
-  def testGetNetworkFnVideoModels(self):
+  def testGetNetworkFnVideopre-trained_Models(self):
     batch_size = 5
     num_classes = 400
     for net in ['i3d', 's3dg']:

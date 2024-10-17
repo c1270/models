@@ -39,5 +39,5 @@ parties before using the data.
 * [Spatiotemporal Contrastive Video Representation Learning](./video_ssl/README.md)
 * [Vision Transformer (ViT)](./vit/README.md)
 * [Data-Efficient Image Transformer (DEIT)](./vit/README.md)
-* [Volumetric Models](./volumetric_models/README.md)
+* [Volumetric pre-trained_Models](./volumetric_models/README.md)
 * [YouTube-8M Tensorflow Starter Code](./yt8m/README.md)

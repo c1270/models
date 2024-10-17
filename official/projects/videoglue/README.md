@@ -1,8 +1,8 @@
-# VideoGLUE: Video General Understanding Evaluation of Foundation Models
+# VideoGLUE: Video General Understanding Evaluation of Foundation pre-trained_Models
 [![Paper](http://img.shields.io/badge/Paper-arXiv.2307.03166-B3181B?logo=arXiv)](https://arxiv.org/abs/2307.03166)
 
 This repository provides the official TensorFlow 2 implementation of
-[VideoGLUE: Video General Understanding Evaluation of Foundation Models](https://arxiv.org/abs/2307.03166)
+[VideoGLUE: Video General Understanding Evaluation of Foundation pre-trained_Models](https://arxiv.org/abs/2307.03166)
 
 <p align="center">
   <img src="https://storage.googleapis.com/tf_model_garden/vision/videoglue/artifacts/VideoGLUE-fig2.jpg" height=350>
@@ -123,7 +123,7 @@ This project is licensed under the terms of the **Apache License 2.0**.
 ## Citation
 ```
 @inproceedings{yuan2023videoglue,
-  title={VideoGLUE: Video General Understanding Evaluation of Foundation Models}
+  title={VideoGLUE: Video General Understanding Evaluation of Foundation pre-trained_Models}
   author={Yuan, Liangzhe and Gundavarapu, Nitesh Bharadwaj and Zhao, Long and
   Zhou, Hao and Cui, Yin and Jiang, Lu and Yang, Xuan and Jia, Menglin and
   Weyand, Tobias and Friedman, Luke and Sirotenko, Mikhail and Wang, Huisheng

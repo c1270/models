@@ -68,7 +68,7 @@ PARAMS=${PARAMS},task.hub_module_url=https://tfhub.dev/tensorflow/bert_en_uncase
 
 The configuration entry `task.hub_module_url` uses a URL to a TF-Hub model which
 is officially pretrained. See
-[List of Pretrained Models](https://github.com/tensorflow/models/blob/master/official/nlp/docs/pretrained_models.md)
+[List of Pretrained pre-trained_Models](https://github.com/tensorflow/models/blob/master/official/nlp/docs/pretrained_models.md)
 for the complete list of pretrained models on TF-Hub. When initializing from a
 pretrained model, the encoder architecture of the pretrained model will be used
 and the encoder architecture you set in the config

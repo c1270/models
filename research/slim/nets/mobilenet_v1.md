@@ -9,7 +9,7 @@ MobileNets trade off between latency, size and accuracy while comparing favorabl
 
 ![alt text](mobilenet_v1.png "MobileNet Graph")
 
-# Pre-trained Models
+# Pre-trained pre-trained_Models
 
 Choose the right MobileNet model to fit your latency and size budget. The size of the network in memory and on disk is proportional to the number of parameters. The latency and power usage of the network scales with the number of Multiply-Accumulates (MACs) which measures the number of fused Multiplication and Addition operations. These MobileNet models have been trained on the
 [ILSVRC-2012-CLS](http://www.image-net.org/challenges/LSVRC/2012/)
